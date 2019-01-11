@@ -1,0 +1,752 @@
+		@media (min-width: 768px) and (max-width: 1300px)
+		body
+		background-color: #7484b5
+
+	#layout
+		width: 100%
+		margin: 0 auto
+		overflow: hidden
+
+	#header
+		height: 100vh
+		width: 100%
+		background-image: url(../images/header-bg-mobile.png?111)
+		background-repeat: no-repeat
+		background-position: center
+		background-size: 100% 100vh
+		overflow: visible
+		margin: 0 auto
+		position: relative
+
+	.wrapper
+		width: 80%
+		margin: 0 auto
+		position: relative
+
+	#logo-number
+		width: 100%
+		height: 80px
+		position: relative
+
+	#contact
+		display: none
+
+	#header-logo
+		width: 206px
+		height: 168px
+		background-image: url(../images/logo.png?111)
+		background-repeat: no-repeat
+		background-size: contain
+		position: absolute
+		top: 30px
+		left: 0
+		z-index: 5
+
+	#header-nav
+		display: none
+
+	#mobile-nav
+		width: 80%
+		height: 80px
+		margin: 0 auto
+		z-index: 1
+		position: absolute
+		bottom: 17px
+		margin-left: 10%
+
+	#mobile-nav ul
+		width: 100%
+		display: flex
+		justify-content: space-between
+
+	#mobile-nav ul li
+		min-width: 150px
+		width: 20%
+
+	#mobile-nav ul a,#mobile-nav ul #serv
+		display: block
+		background: #65a9df
+		width: 100%
+		height: 80px
+		color: #fff
+		font-size: 18px
+		border-radius: 6px
+		display: flex
+		justify-content: center
+		flex-direction: column
+		align-items: center
+
+	#mobile-nav li p#serv
+		position: relative
+		padding-right: 10px
+		box-sizing: border-box
+
+	#mobile-nav li p#serv img
+		margin-right: -10px
+
+	#mobile-nav li #serv: : after
+		content: ""
+		width: 9px
+		height: 5px
+		background-image: url(../images/arrow-mb.png?111)
+		background-repeat: no-repeat
+		top: 60px
+		right: 35px
+		position: absolute
+		display: inline-block
+		transition: transform .2s linear
+
+	#serv.updown: : after
+		content: ""
+		width: 15px
+		height: 10px
+		background-image: url(../images/arrow-mb.png?111)
+		background-repeat: no-repeat
+		background-size: 100% 100%
+		top: 60px
+		transform: rotate(180deg)
+		right: 35px
+		position: absolute
+		display: inline-block
+		transition: transform .2s linear
+
+	.social-icon
+		margin-top: 40px
+		display: flex
+		flex-direction: column
+		float: right
+
+	.social-icon a: nth-child(2)
+		margin: 50px 0 50px 0
+
+	.social-icon a img
+		width: 50px
+		height: 50px
+
+	#mail img
+		height: 35px
+
+	#center
+		text-align:  center
+		z-index: 2
+		width: 750px
+		height: 250px
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		margin: auto auto
+
+	#center h1
+		font-size: 60px
+		color: #fff
+		font-weight: 100
+		margin-bottom: 5px
+
+	#center p
+		font-size: 30px
+		color: #fff
+		margin-bottom: 75px
+
+	.callback
+		display: none
+
+	#callback
+		background: #414f7e
+		color: #fff
+		font-size: 24px
+		width: 270px
+		height: 70px
+		border-radius: 4px
+		position: absolute
+		padding: 0 35px 0 25px
+		box-sizing: border-box
+		top: 0
+		right: 10%
+		display: flex
+		align-items: center
+		justify-content: center
+		z-index: 200
+
+	#callback p
+		margin-left: 20px
+
+	.popup-box
+		width: 100%
+		min-height: 100%
+		background-color: rgba(0,0,0,.5)
+		overflow: hidden
+		position: fixed
+		top: 0
+		z-index: 999
+		display: none
+
+	.popup-box #feedback
+		margin: auto auto
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		width: 300px
+		height: 350px
+		padding: 10px
+		background-color: #fff
+		border-radius: 5px
+		
+
+	.popup-show
+		display: block!important
+
+	.close-popup
+		display: block
+		width: 40px
+		height: 40px
+		border-radius: 50%
+		background: #fff
+		float: right
+		font-size: 35px
+		margin: -25px -25px
+		color: #414f7e
+		text-align:  center
+		line-height: 40px
+
+	.popup-box #feedback h2
+		font-size: 22px
+		display: block
+		margin: 0 auto
+		width: 96%
+		padding-top: 30px
+
+	.popup-box #feedback input
+		box-sizing: border-box
+		width: 96%!important
+		margin-left: 2%
+		height: 55px!important
+		font-size: 28px!important
+
+	.popup-box #feedback input[type="submit"]
+		margin: 100px 0 0 1%
+		width: 86%!important
+
+	.head-rombs
+		width: 583px
+		height: 639px
+		background: url(../images/head-rombs-mobile.png?111)
+		background-repeat: no-repeat
+		background-size: contain
+		position: absolute
+		bottom: 0
+		left: 0
+		z-index: 0
+
+	#s-1
+		width: 100%
+		height: 986px
+		margin: 0 auto
+		background: #e6f1fa
+		position: relative
+
+	#under-rombs
+		width: 541px
+		height: 414px
+		background: url(../images/under-rombs-mobile.png?111)
+		background-repeat: no-repeat
+		background-size: contain
+		position: absolute
+		top: 0
+		left: 0
+		z-index: 1
+
+	#logo-romb
+		width: 200px
+		height: 162px
+		background-image: url(../images/logo.png?111)
+		background-repeat: no-repeat
+		background-size: contain
+		position: absolute
+		top: 140px
+		left: calc(50% - 100px)
+
+	.list
+		width: 638px
+		position: absolute
+		left: calc(50% - 319px)
+		bottom: 50px
+
+	.list li
+		margin-top: 20px
+		font-size: 18px
+
+	#inlist
+		margin-left: 80px
+
+	#inlist li
+		margin-top: 10px
+		position: relative
+
+	#inlist li: : before
+		content: ""
+		width: 8px
+		height: 8px
+		border-radius: 50%
+		background: #414f7e
+		position: absolute
+		left: -35px
+		top: 9px
+
+	#s-2
+		width: 100%
+		margin: 0 auto
+		height: 2068px
+		background: url(../images/s-2bg.png?111)
+		background-repeat: repeat
+		padding: 30px 0 30px 0
+		box-sizing: border-box
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: center
+
+	#s-2 img
+		width: 100%
+		height: 100%
+
+	#s-2 p
+		color: #57607b
+		font-size: 30px
+		font-family: "BrutalType-Medium"
+
+	#box1,#box2,#box3,#box4
+		width: 90%
+		height: 478px
+		margin: 0 auto
+		position: relative
+
+	.box-name
+		position: absolute
+		z-index: 5
+		background: #fff
+		opacity: .5
+		text-align:  center
+		vertical-align: middle
+		bottom: 0
+		right: 35px
+		padding: 15px 30px
+
+	#s-3
+		width: 100%
+		background: #fff
+		margin: 0 auto
+		position: relative
+		padding-top: 50px
+		padding-bottom: 40px
+
+	.three-but
+		width: 100%
+		display: flex
+		justify-content: space-around
+
+	.but-box
+		display: block
+		width: 30%
+		height: 100px
+		border-radius: 6px
+		background: #65a9df
+		z-index: 100
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		color: #fff
+		font-size: 25px
+		font-weight: bold
+		transition: background .3s linear
+
+	.but-box: hover
+		background: #414f7e
+
+	#s-3 h2
+		padding: 0 0 20px 0
+		font-size: 35px
+
+	#tab-bar
+		position: absolute
+		width: 64%
+		height: 80px
+		left: 18%
+		top: 55px
+
+	#menu-tabs
+		width: 100%
+		height: 80px
+		display: flex
+		justify-content: space-between
+
+	#menu-tabs li a
+		display: block
+		width: 160px
+		height: 80px
+		background: #65a9df
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		color: #fff
+
+	#menu-tabs li a.active,#menu-tabs li a: focus
+		background: #414f7e
+
+	.note-text
+		display: none
+
+	.block
+		width: 86%
+		margin: 0 auto
+		background: url(../images/bg-3-mob.png) 50% 75px
+		background-repeat: no-repeat
+
+	.block h3
+		font-size: 30px
+		text-align:  center
+		font-weight: lighter
+		padding-bottom: 30px
+
+	.block p
+		font-size: 18px
+
+	.t1 p.our-work
+		padding-top: 30px
+
+	#list-in-tab
+		margin-top: 30px
+
+	#list-in-tab ul li
+		position: relative
+		margin: 0 0 27px 80px
+
+	#list-in-tab ul li: : before
+		content: ""
+		width: 10px
+		height: 10px
+		border: 3px solid #414f7e
+		transform: rotate(45deg)
+		background: transparent
+		position: absolute
+		left: -40px
+		top: 15px
+
+	#list-in-tab ul li span
+		font-weight: bold
+
+	.forMoreInfo
+		padding-top: 30px
+
+	.callback-btn
+		display: block
+		width: 255px
+		height: 63px
+		color: #fff
+		margin: 0 auto
+		background: #414f7e
+		text-align:  center
+		line-height: 63px
+		font-size: 24px
+		border-radius: 4px
+		vertical-align: middle
+		margin-top: 40px
+
+	.t2 .our-work
+		display: none
+
+	.list-img-note
+		display: none
+
+	#list-img-mob
+		width: 100%
+		padding-top: 30px
+		display: flex
+		justify-content: space-around
+
+	.t3 br
+		display: none
+
+	#s-4
+		width: 100%
+		height: 330px
+
+	#citate-slider
+		width: 100%
+		height: 340px
+		background: #414f7e
+
+	.sliderBox
+		width: 100%
+		height: 330px
+		display: flex
+		align-items: center
+		justify-content: center
+		position: relative
+		margin: 0 auto
+		z-index: 1
+
+	.review
+		width: 475px
+		position: relative
+		color: #fff
+		font-size: 18px
+		line-height: 25px
+
+	.review: : before
+		content: ""
+		width: 92px
+		height: 70px
+		background-image: url(../images/openquote.png?111)
+		background-repeat: no-repeat
+		background-size: cover
+		position: absolute
+		bottom: -80px
+		left: -80px
+
+	.review: : after
+		content: ""
+		width: 92px
+		height: 70px
+		background-image: url(../images/closequote.png?111)
+		background-repeat: no-repeat
+		background-size: cover
+		position: absolute
+		top: -70px
+		right: -75px
+
+	.author
+		position: absolute
+		bottom: -45px
+		right: -25px
+
+	#s-5
+		width: 100%
+		height: 1050px
+		background: #c3e0f8
+		padding: 40px 0 49px 0
+		box-sizing: border-box
+
+	#s-5 p
+		font-size: 30px
+		font-weight: 100
+		text-align:  center
+
+	#s-5 .slider-team
+		height: 400px
+		width: 100%
+		margin-top: 50px
+
+	#sliderBox-mobile
+		width: 580px
+		height: 862px
+		display: grid
+		grid-template:  421px 421px/1fr 1fr
+		justify-items: center
+		grid-gap: 50px
+
+	.member
+		width: 256px
+		height: 402px
+		position: relative
+		z-index: 2
+
+	.member-name
+		width: 100%
+		height: 53px
+		background-color:  #ffffffab
+		position: absolute
+		bottom: 0
+		display: flex
+		justify-content: center
+		align-items: center
+
+	#sliderBox-mobile p
+		font-size: 24px
+		font-weight: 600
+		color: #000
+
+	#s-5 .bx-wrapper .bx-viewport #sliderBox-mobile
+		height: 932px
+
+	#s-5 .bx-wrapper .bx-next,#s-5 .bx-wrapper .bx-prev
+		display: none
+
+	#footer .wrapper
+		width: 90%
+		position: absolute
+		bottom: 35px
+		left: 5%
+
+	#footer
+		width: 100%
+		height: 100vh
+		background-color: #414f7e
+		background-image: url(../images/footer-bg-mobile.png?111)
+		background-size: 100% 100vh
+		background-repeat: no-repeat
+		position: relative
+		padding-bottom: 35px
+		box-sizing: border-box
+
+	#footer p
+		color: #fff
+		font-size: 12px
+
+	#footer a
+		color: #fff
+		font-size: 12px
+
+	#feedback
+		width: 420px
+		height: 320px
+		border-radius: 3px
+		position: relative
+		left: calc(50% - 210px)
+		top: 10%
+		z-index: 50
+
+	.textInput
+		width: 398px
+		height: 70px
+		outline: none
+		border-radius: 3px
+		margin-top: 27px
+		font-size: 18px
+		font-family: "BrutalType-Light"
+		border: 1px solid #c7c7c7
+		
+		padding-left: 20px
+
+	#feedback h2
+		width: 420px
+		font-size: 24px
+		line-height: 25px
+		text-align:  center
+		font-weight: lighter
+
+	.submit
+		width: 280px
+		height: 64px
+		font-family: "BrutalType-Light"
+		background: #414f7e
+		border-radius: 3px
+		margin-top: 30px
+		font-size: 24px
+		cursor: pointer
+		outline: none
+		border: none
+		color: #fff
+		position: absolute
+		left: calc(50% - 140px)
+
+	.popup
+		width: 465px
+		height: 195px
+		background: #fff
+		position: absolute
+		top: 133px
+		left: calc(50% - 232.5px)
+		border-radius: 2px
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		z-index: 100
+		
+
+	#popup p
+		width: 350px
+		color: #000
+		font-size: 20px
+		text-align:  center
+
+	#popup
+		display: none
+
+	#logo-name
+		width: 100%
+
+	#logo-name img
+
+
+	#logo-name span
+		float: right
+		text-align:  right
+		font-size: 14px
+
+	#footer-about
+		width: 100%
+		height: 100px
+		line-height: 17px
+		margin-top: 15px
+		position: relative
+
+		br#mob
+		display:  none
+
+	#footer-about p img
+		float:  left
+		margin-left: 120px
+
+	#footer-list
+		width:  100%
+		display:  flex
+		justify-content: space-around
+		position:  absolute
+		bottom: 30px
+
+	#footer-list li a,#footer-list li p
+		font-size: 18px
+		display: inline-flex
+
+	#subtype-list
+		display: none
+
+	#mobile-map
+		width: 400px
+		height: 235px
+		background: url(../images/footer-map.png?111)
+		background-size: 100% 100%
+		background-repeat: no-repeat
+		float: left
+
+	#info-copyright
+		float: right
+		text-align:  right
+		height: 235px
+
+	#info-copyright p
+		margin-top: 27px
+
+	#info-copyright p: nth-child(1)
+		width: 175px
+		float: right
+		margin: 0 0 27px 0
+
+	#footer-icons
+		margin: 15px 0 -15px 0
+
+	#footer-icons a: first-child
+		margin-right: 30px
+
+	.footer-logo-page
+		height: 330px
+		width: 400px
+		display: block
+		background: url(../images/logo.png)
+		background-repeat: no-repeat
+		background-size: 100% 100%
+		z-index: 5
+		position: absolute
+		left: calc(50% - 200px)
+		top: 100px
+
+	.hide-on-mob
+		display: none
+		
